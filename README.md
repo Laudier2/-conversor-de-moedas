@@ -14,7 +14,7 @@
 
 ## ✋🏻 Pré-requisitos
 
-- [Node.js](https://nodejs.org/en/)
+- [Reactjs](https://nodejs.org/en/)
 - [Yarn](classic.yarnpkg.com/en/docs/install)
 - [Conversor de Moedas](https://conversordemoeda.ga)
 
@@ -22,7 +22,7 @@
 
 1. Faça um clone desse repositório;
 2. Entre na pasta `cd conversor-de-moedas`;
-3. Rode `yarn` ;
+3. Rode `yarn install` ;
 4. Rode `yarn start`;
 5. Acesse a URL `http://localhost:3000`;
 

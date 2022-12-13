@@ -62,7 +62,7 @@ export default function Converso() {
                 displayType="input"
                 thousandSeparator={true}
                 allowNegative={true}
-                decimalScale={4}
+                decimalScale={3 || 4 || 5}
                 placeholder="0,00"
                 className="form-control h1-m mrg"
                 value={values > 0 ? btc * values : values}
