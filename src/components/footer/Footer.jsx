@@ -41,7 +41,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <br />
-                <div className="adiv">&copy; Desenvolvido em 2021 - José Santana de Jesus - Social:
+                <div className="adiv tst">&copy; Desenvolvido em 2021 - José Santana de Jesus - Social:
 
                 </div>
                 <br />
