@@ -10,18 +10,18 @@ const Footer = () => {
 
             <div style={{ background: "#DCDCDC" }}>
                 <br />
-                <div className="mrg">
+                <div className="adiv2">
 
-                    <a href="/avisoslegais" target={nova} className="ml-5">
+                    <a href="/avisoslegais" target={nova} className="ml-5 tst">
                         Avisos Legais
                     </a>
-                    <a href="/politicaDePrivacidade" target={nova} className="ml-5">
+                    <a href="/politicaDePrivacidade" target={nova} className="ml-5 tst">
                         Privacidade
                     </a>
-                    <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1663026784&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f0%2f%3fstate%3d1%26redirectTo%3daHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveC9pZC9BUVFrQURBd0FUWmlabVlBWkMwd05XWTJMV0UzTUdRdE1EQUNMVEF3Q2dBUUFQRUw3eEd3Yy85UHY1dDFaMWdzZzNjPS8%26nlp%3d1%26RpsCsrfState%3d189e4627-f3aa-9e4a-048f-3378ba6c54ce&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015" target={nova} className="ml-5">
+                    <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1663026784&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f0%2f%3fstate%3d1%26redirectTo%3daHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveC9pZC9BUVFrQURBd0FUWmlabVlBWkMwd05XWTJMV0UzTUdRdE1EQUNMVEF3Q2dBUUFQRUw3eEd3Yy85UHY1dDFaMWdzZzNjPS8%26nlp%3d1%26RpsCsrfState%3d189e4627-f3aa-9e4a-048f-3378ba6c54ce&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015" target={nova} className="ml-5 tst">
                         E-mail: josesantanadeveloper@gmail.com
                     </a>
-                    <a href="https://web.whatsapp.com/" target={nova} className="ml-5">
+                    <a href="https://web.whatsapp.com/" target={nova} className="ml-5 tst">
                         Whatsapp: +55 (75) 998239680
                     </a>
                 </div>

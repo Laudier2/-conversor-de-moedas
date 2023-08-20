@@ -18,10 +18,19 @@ a {
   text-align: center;
 }
 
+.tst {
+  font-weight: bold;
+}
+
 @media screen and (max-width: 780px) {
   a {
     text-decoration: none;
     display: inline-block;
+    font-size: 14px;
+  }
+
+  .adiv2 {
+    width: 95%;
   }
 
   .adiv {
