@@ -5,8 +5,9 @@ import './nav.css';
 const Nav = () => {
   return (
     <div>
-      <nav className="navbar navbar-light col-md-12" style={{background: "#40E0D0"}}>
+      <nav className="navbar navbar-light col-md-12" style={{ background: "#40E0D0" }}>
         <div className="container-fluid">
+          <h2 className="titoloNav mt-1">Conversor de moedas</h2>
           <button
             className="navbar-toggler"
             type="button"
@@ -18,7 +19,6 @@ const Nav = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <h2 className="titoloNav mt-1">Conversor de moedas</h2>
         </div>
       </nav>
       <div></div>
@@ -58,16 +58,16 @@ const Nav = () => {
         </Link>
         <Link to="/ars" className="text-info ml-1">
           <strong className="flt">
-            
+
             <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-bandeira-argentina_53876-27120.jpg?size=626&ext=jpg" alt="img" className="img3" />
             -ARS
           </strong>
 
         </Link>
-        
+
         <Link to="/cad" className="ml-1">
           <strong className="flt">
-            
+
             <img src="https://img.freepik.com/free-photo/american-canadian-flags-together_93675-23304.jpg?size=626&ext=jpg" alt="img" className="img3" />
             -CAD
           </strong>
@@ -75,7 +75,7 @@ const Nav = () => {
         </Link>
         <Link to="/aud" className="ml-1">
           <strong className="flt">
-            
+
             <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-australia-bandeira_53876-27116.jpg?size=626&ext=jpg" alt="img" className="img3" />
             -AUD
           </strong>
@@ -90,7 +90,7 @@ const Nav = () => {
         </Link>
         <Link to="/cny" className="ml-1">
           <strong className="flt">
-           
+
             <img src="https://media.istockphoto.com/photos/waving-china-flag-picture-id480742657?k=20&m=480742657&s=612x612&w=0&h=jDEGW6d161IxCjI2q4Rq4yqmj68bQRnFyznccjER33s=" alt="img" className="img3" />
             -CNY
           </strong>
