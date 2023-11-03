@@ -8,9 +8,9 @@ function initizeAnalytics(){
 }
 
 
+initizeAnalytics()
 function App() {
 
-  initizeAnalytics()
 
   //console.log(valor)
 

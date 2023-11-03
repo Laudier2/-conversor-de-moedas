@@ -10,9 +10,10 @@ function initizeAnalytics(){
 
 const googleAdId = 'ca-pub-1889118601001220';
 
+initizeAnalytics()
+
 class GoogleAd extends Component {
 
-  initizeAnalytics()
 
   googleInit = null;
 
