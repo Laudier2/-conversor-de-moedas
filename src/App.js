@@ -4,7 +4,7 @@ import ReactGa from 'react-ga'
 
 function initizeAnalytics(){
   ReactGa.initialize("UA-203590218-2")
-  ReactGa.pageview("/")
+  ReactGa.pageview(window.location.pathname)
 }
 
 
