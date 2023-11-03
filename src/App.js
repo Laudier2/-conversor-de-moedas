@@ -3,14 +3,14 @@ import RotasAdmin from './Routes/routes';
 import ReactGa from 'react-ga'
 
 function initizeAnalytics(){
-  ReactGa.initialize("UA-203590218-2")
-  ReactGa.pageview(window.location.pathname)
+  ReactGa.initialize("UA-203590218-1")
+  ReactGa.pageview("/")
 }
 
 
-initizeAnalytics()
 function App() {
 
+  initizeAnalytics()
 
   //console.log(valor)
 
