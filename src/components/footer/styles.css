@@ -1,3 +1,8 @@
+.container2 {
+  background-color: #DCDCDC;
+  text-align: center;
+}
+
 li {
   list-style-type: none;
 }
@@ -20,6 +25,11 @@ a {
 
 .tst {
   font-weight: bold;
+  text-decoration: none;
+  /*border: solid #0b69c7;*/
+  padding: 5px;
+  border-radius: 8px;
+  border-width: 0.5px;
 }
 
 @media screen and (max-width: 780px) {
