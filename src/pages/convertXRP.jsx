@@ -29,7 +29,7 @@ export default function Converso(cov) {
       <form>
         <div className="form-row">
           <div className="form-group col-md-6 text-primary h1">
-            <label htmlFor="inputEmail4 h1-m">
+            <label className="inputEmail">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr0oyxJbVSnfo0Gs8Liz62VUO-AZBgnpwvVbZ0KZA0vKheflNgzjze9VKJvEWOFm6wCPs&usqp=CAU" alt="img" className="img mt-2" />
             </label>
             <div className="form-group input-group">
@@ -48,7 +48,7 @@ export default function Converso(cov) {
             </div>
           </div>
           <div className="form-group col-md-6 text-primary h1">
-            <label htmlFor="inputPassword4 h1 h1-m">
+            <label className="inputEmail">
               <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-bandeira-brasil_53876-27017.jpg?size=626&ext=jpg" alt="img" className="img mt-2" />
             </label>
             <div className="form-group input-group">
