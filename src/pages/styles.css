@@ -5,6 +5,7 @@
 .mrg {
   text-align: center;
   color: rgb(110, 109, 109);
+  cursor: pointer;
 }
 .img2 {
   width: 30%;
@@ -22,6 +23,14 @@
 .img {
   width: 100px;
   margin-left: 80px;
+  border-radius: 50px;
+  display: flex;
+}
+
+.inputEmail {
+  @media (max-width: 768px) and (max-width: 1200px) {
+    margin-left: 45%;
+  }
 }
 
 .img3 {
