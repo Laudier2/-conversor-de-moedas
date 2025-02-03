@@ -29,7 +29,7 @@ export default function Converso() {
       <form>
         <div className="form-row">
           <div className="form-group col-md-6 text-primary h1">
-            <label htmlFor="inputEmail4 h1-m"><img src="https://imagensemoldes.com.br/wp-content/uploads/2020/09/Moeda-Dinheiro-Bitcoin-PNG-1024x585.png" alt="img" className="img mt-1" /></label>
+            <label className="inputEmail"><img src="https://static.news.bitcoin.com/wp-content/uploads/2025/01/6595-bitcoin-mined-by-core-scientific-in-2024.jpg" alt="img" className="img mt-1" /></label>
             <div className="form-group input-group">
               <div className="input-grou-prepend align-self-center">
                 <div className="input-group-text">
@@ -46,7 +46,7 @@ export default function Converso() {
             </div>
           </div>
           <div className="form-group col-md-6 text-primary h1">
-            <label htmlFor="inputPassword4 h1 h1-m">
+            <label className="inputEmail">
               <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-bandeira-brasil_53876-27017.jpg?size=626&ext=jpg" alt="img" className="img mt-1" />
             </label>
             <div className="form-group input-group">
