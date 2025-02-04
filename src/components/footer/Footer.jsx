@@ -5,10 +5,12 @@ const Footer = () => {
 
     const nova = "_blank"
 
+    //style={{ background: "#DCDCDC" }}
+
     return (
         <>
 
-            <div style={{ background: "#DCDCDC" }}>
+            <div className='container2'>
                 <br />
                 <div className="adiv2">
 
@@ -26,7 +28,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <br />
-                <div className="mrg">
+                <div className="">
                     <a href="https://www.linkedin.com/in/jos%C3%A9-santana-de-jesus-8949b3124/" target={nova}>
                         <img src="linkedin.png" alt="img" className="icon" />
                     </a>
@@ -41,7 +43,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <br />
-                <div className="adiv tst">&copy; Desenvolvido em 2021 - José Santana de Jesus - Social:
+                <div className="adiv">&copy; Desenvolvido em 2021 - José Santana de Jesus - Social:
 
                 </div>
                 <br />
