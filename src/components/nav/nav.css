@@ -23,7 +23,8 @@ h3 {
 }
 
 .titoloNav {
-  margin-right: 40%;
+  text-align: center;
+  margin: auto;
   font-size: 50px;
   color: rgb(10, 10, 10);
   font-weight: bold;
@@ -32,6 +33,16 @@ h3 {
     0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
     0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25),
     0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+
+  @media (max-width: 768px) and (max-width: 932) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 1080px) and (max-width: 1200px) {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+  }
 }
 
 h4 {
